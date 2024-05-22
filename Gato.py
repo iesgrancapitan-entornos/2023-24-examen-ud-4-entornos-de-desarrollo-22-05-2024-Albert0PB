@@ -5,7 +5,8 @@ Clase Gato.
 class Gato:
 
     def maullar(self):
-        print('Miau');
+        self.maulla = 'Miau'
+        print('%s' % self.maulla);
 
 g = Gato();
 g.maullar();
